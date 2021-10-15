@@ -1,0 +1,53 @@
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="seu nome"
+		android:id="@+id/nome"
+		android:text=""/>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+		<button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="+"
+			android:id="@+id/btn_mais"
+			android:onClick="somar"/>
+									
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="1"
+			android:id="@+id/qtd"/>
+		
+		<button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="-"
+			android:id="@+id/btn_menos"
+			android:onClick="diminuir"/>
+			
+	</LinearLayout>
+	
+	<button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="finalizar"
+		android:onClick="finalizar"
+		android:id="@+id/btn_finalizar"/>
+			
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Resumo: "
+		android:id="@+id/resumo"/>
+
+</LinearLayout>
