@@ -91,18 +91,5 @@
 		android:layout_gravity="center"
 		android:text="gravar"
 		android:textSize="15sp" />
-		
-	
-	<!-- teste -->
-		
-	<TextView
-		android:id="@+id/viewExemplo"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="20dp"
-		android:layout_gravity="center"
-		android:textColor="@color/secondaryColor"
-		android:text="Nova view exemplo" 
-		android:textSize="20sp" />
 
 </LinearLayout>
