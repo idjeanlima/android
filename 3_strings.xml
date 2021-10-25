@@ -1,0 +1,12 @@
+<resources>
+	
+	<string name="app_name">AppVendasX</string>
+	
+	<string-array name="years_array">
+		<item>2020</item>
+		<item>2019</item>
+		<item>2018</item>
+		<item>2017</item>
+	</string-array>
+	
+</resources>	
