@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppVendas</string>
+    <string name="app_name">AtividadeSpinner</string>
 
     <string-array name="years_array">
         <item>2020</item>
