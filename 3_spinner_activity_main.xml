@@ -7,87 +7,88 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-	<EditText
-		android:id="@+id/codigoEmpresa"
-		android:layout_width="300dp"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="20dp"
-		android:hint="Código da empresa" />
-	
-	<EditText
-		android:id="@+id/ano"
-		android:layout_width="300dp"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="20dp"
-		android:hint="Nome" />
-		
-	<Spinner
-		android:id="@+id/spinnerAno"
-		android:layout_width="150dp"
-		android:layout_height="wrap_content"
-		android:tooltipText="Ano" />
-		
-	<RadioGroup
-		android:id="@+id/radioPag"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content" >
-		
-		<RadioButton
-			android:id="@+id/btnCredito"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content" 
-			android:text="Crédito"/>
-			
-		<RadioButton
-			android:id="@+id/btnDebito"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content" 
-			android:text="Débito"/>
-	
-	</RadioGroup>
-	
-	<CheckBox
-		android:id="@+id/usuarioAtivo"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="Usuário Ativo"
-		android:layout_marginTop="20dp" />
-		
-	<EditText
-		android:id="@+id/valor"
-		android:layout_width="300dp"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="20dp"
-		android:ems="10"
-		android:inputType="numberDecimal"
-		android:hint="Valor R$" />
-		
-	<TextView
-		android:id="@+id/valorFinal"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_gravity="center"
-		android:textColor="#FF0000"
-		android:text="0.00" 
-		android:textSize="25sp" />
-		
-	<TextView
-		android:id="@+id/ano"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="20dp"
-		android:layout_gravity="center"
-		android:textColor="#FF0000"
-		android:text="ano"
-		android:textSize="15sp" />
-		
-	<Button
-		android:id="@+id/btnGravar"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="20dp"
-		android:layout_gravity="center"
-		android:text="gravar"
-		android:textSize="15sp" />
+    <EditText
+        android:id="@+id/codigoEmpresa"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Código da empresa" />
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nome" />
+
+    <Spinner
+        android:id="@+id/spinnerAno"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:tooltipText="Ano" />
+
+    <RadioGroup
+        android:id="@+id/radioPag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/btnCredito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crédito"/>
+
+        <RadioButton
+            android:id="@+id/btnDebito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Débito"/>
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/usuarioAtivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuário Ativo"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Valor R$" />
+
+    <TextView
+        android:id="@+id/valorFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:text="0.00"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/ano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:text="ano"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnGravar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="gravar"
+        android:textSize="15sp" />
+
 
 </LinearLayout>
